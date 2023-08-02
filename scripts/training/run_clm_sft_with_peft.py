@@ -52,7 +52,7 @@ from peft import LoraConfig, TaskType, get_peft_model, PeftModel, get_peft_model
 from transformers.trainer_utils import PREFIX_CHECKPOINT_DIR
 
 IGNORE_INDEX = -100
-
+os.environ["WANDB_DISABLED"] = "true"
 require_version("datasets>=1.8.0", "To fix: pip install -r examples/pytorch/language-modeling/requirements.txt")
 
 
