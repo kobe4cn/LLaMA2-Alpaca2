@@ -325,8 +325,8 @@ setup()
 
 # Create the Gradio interface
 with gr.Blocks() as demo:
-    github_banner_path = 'https://raw.githubusercontent.com/ymcui/Chinese-LLaMA-Alpaca-2/main/pics/banner.png'
-    gr.HTML(f'<p align="center"><a href="https://github.com/ymcui/Chinese-LLaMA-Alpaca-2"><img src={github_banner_path} width="700"/></a></p>')
+    # github_banner_path = 'https://raw.githubusercontent.com/ymcui/Chinese-LLaMA-Alpaca-2/main/pics/banner.png'
+    # gr.HTML(f'<p align="center"><a href="https://github.com/ymcui/Chinese-LLaMA-Alpaca-2"><img src={github_banner_path} width="700"/></a></p>')
     # gr.Markdown("> 为了促进大模型在中文NLP社区的开放研究，本项目开源了中文LLaMA模型和指令精调的Alpaca大模型。这些模型在原版LLaMA-2的基础上扩充了中文词表并使用了中文数据进行二次预训练，进一步提升了中文基础语义理解能力。同时，中文Alpaca模型进一步使用了中文指令数据进行精调，显著提升了模型对指令的理解和执行能力。")
     chatbot = gr.Chatbot()
     with gr.Row():
