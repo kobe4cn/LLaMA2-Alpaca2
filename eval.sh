@@ -1,4 +1,6 @@
-model_path=/mnt/mydisk/llama2-merage-output/merge-llama2-chinese-alpaca-7B/V2
+
+#model_path=/mnt/mydisk/llama2-merage-output/merge-llama2-chinese-alpaca-7B/V2
+model_path=/mnt/mydisk/llama2_models/chinese-alpaca-2-7b
 output_path=/mnt/mydisk/llama2-merage-output/merge-llama2-chinese-alpaca-7B/ceval/
 
 cd scripts/ceval
