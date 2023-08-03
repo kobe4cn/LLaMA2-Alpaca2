@@ -61,7 +61,6 @@ torchrun --nnodes 1 --nproc_per_node 1 run_clm_sft_with_peft.py \
     --modules_to_save ${modules_to_save} \
     --ddp_find_unused_parameters False
 
-    '''
-    --peft_path ${peft_model} \
 
-    '''
+    #--peft_path ${peft_model} \
+
