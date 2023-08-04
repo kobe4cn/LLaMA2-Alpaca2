@@ -7,7 +7,7 @@ lora_dropout=0.05
 
 pretrained_model=/mnt/mydisk/llama2_models/chinese-alpaca-2-7b
 chinese_tokenizer_path=/mnt/mydisk/llama2_models/chinese-alpaca-2-7b
-dataset_dir=/mnt/mydisk/LLaMA2-Alpaca2/data/
+dataset_dir=/home/ubuntu/txt/
 data_cache=/mnt/mydisk/cache/
 per_device_train_batch_size=1
 per_device_eval_batch_size=1
