@@ -33,7 +33,7 @@ def process_excel_with_api(input_file, output_file, api_url, column_to_process):
             if choices:
                 text = choices[0].get('text', '')
 
-                print(index+". ".join(text))
+                print(text)
                 processed_result = text  # 假设API返回的结果在'result'字段中
             else:
                 print("No 'choices' found in the response.")
