@@ -57,7 +57,7 @@ def process_excel_with_api(input_file, output_file, api_url, column_to_process):
 if __name__ == '__main__':
     input_excel_file = 'LRL种草贴数据.xlsx'  # 输入Excel文件名
     output_excel_file = 'output/LRL种草贴数据.xlsx'  # 输出Excel文件名
-    api_url = 'http://127.0.0.1:19327/v1/completions'
+    api_url = 'http://43.130.26.100:19327/v1/completions'
     headers = {'Content-Type': 'application/json'}
 
     column_name_to_process = '内容'  # 需要处理的列的名称

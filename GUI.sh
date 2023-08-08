@@ -1,0 +1,1 @@
+python scripts/inference/gradio_demo.py --base_model /mnt/mydisk/llama2_models/chinese-alpaca-2-7b/
