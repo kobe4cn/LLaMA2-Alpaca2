@@ -62,4 +62,4 @@ if __name__ == '__main__':
         base_model_path, tokenizer_path, lora_model_path, load_in_8bit)
 
     gr_interface = gradio_interface(tokenizer, model)
-    gr_interface.launch()
+    gr_interface.launch(share=True)
