@@ -3,6 +3,7 @@ from transformers import LlamaForCausalLM, LlamaTokenizer
 import gradio as gr
 from flask import Flask, request, jsonify
 
+app = Flask(__name__)
 # Perform inference
 @torch.no_grad()
 def run_inference(input_text, tokenizer, model, **kwargs):
